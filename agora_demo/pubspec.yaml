@@ -33,11 +33,18 @@ dependencies:
     sdk: flutter
   agora_rtc_engine: ^6.0.0
   permission_handler: ^10.2.0
-
+  google_sign_in: ^5.3.0
+  firebase_core: 
+  firebase_auth:
+  flutter_facebook_auth: ^5.0.6
+  # sign_in_with_apple: ^4.2.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+
+dependency_overrides:
+    firebase_core_platform_interface: 4.5.1
 
 dev_dependencies:
   flutter_test:
